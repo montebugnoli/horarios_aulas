@@ -2,6 +2,16 @@
     include 'conn.php';
     include 'header.php';
 ?>
+
+<script src="bower_components/jquery/dist/jquery.min.js"> </script>
+<script>
+ $('#courses').autoComplete({
+     serviceurl:
+ })
+
+</script>
+
+<form method="post" action="cadastro_gravar.php">
     <div id="panel" class="container" style="width: 50%" >
          <label>CURSO:</label>
             <?php
@@ -85,8 +95,9 @@
     </div>
 
     <div style="text-align: center; margin-top: 50px;">
-        <a  class="btn btn-success btn-large" role="button">SEND TO BACK!</a>
+       <input type="submit"  class="btn btn-success btn-large" value="SEND TO BACK!" id="cadastrar" name="cadastrar">
     </div>
+</form>
 
 
 <?php include 'footer.php' ; ?>

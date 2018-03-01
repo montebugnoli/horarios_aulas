@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81fe9b87-df75-4327-a5f6-d455d1c76011" name="Default" comment="Identação">
+    <list default="true" id="81fe9b87-df75-4327-a5f6-d455d1c76011" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/cadastro_gravar.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cadastro.php" afterPath="$PROJECT_DIR$/cadastro.php" />
     </list>
     <ignored path="Form30Horas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,6 +19,18 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Form30Horas" />
   </component>
@@ -25,9 +39,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="572">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
               </folding>
             </state>
@@ -37,14 +52,37 @@
       <file leaf-file-name="cadastro.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cadastro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+            <state relative-caret-position="176">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
-                <marker date="1519924221539" expanded="true" signature="204:241" ph="SELECT idtur... TURMAS" />
-                <marker date="1519924221539" expanded="true" signature="817:886" ph="SELECT iddis... DISCIPLINAS" />
-                <marker date="1519924221539" expanded="true" signature="1539:1574" ph="SELECT iddis... DISCIPLINAS" />
-                <marker date="1519924221539" expanded="true" signature="1539:1578" ph="SELECT * FRO... PROFESSORES" />
-                <marker date="1519924221539" expanded="true" signature="2155:2193" ph="SELECT * FRO... HORARIOS" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#form#0;n#!!top" expanded="true" />
+                <marker date="1519929310242" expanded="true" signature="395:432" ph="SELECT idtur... TURMAS" />
+                <marker date="1519929310242" expanded="true" signature="1008:1077" ph="SELECT iddis... DISCIPLINAS" />
+                <marker date="1519929310242" expanded="true" signature="1730:1765" ph="SELECT iddis... DISCIPLINAS" />
+                <marker date="1519929310242" expanded="true" signature="1730:1769" ph="SELECT * FRO... PROFESSORES" />
+                <marker date="1519929310242" expanded="true" signature="2346:2384" ph="SELECT * FRO... HORARIOS" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro_gravar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cadastro_gravar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <marker date="1519926548744" expanded="true" signature="286:377" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+                <marker date="1519926548744" expanded="true" signature="286:378" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+                <marker date="1519926548744" expanded="true" signature="286:397" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+                <marker date="1519926548744" expanded="true" signature="286:415" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+                <marker date="1519926548744" expanded="true" signature="286:430" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+                <marker date="1519926548744" expanded="true" signature="286:446" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+                <marker date="1519926548744" expanded="true" signature="286:464" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+                <marker date="1519926548744" expanded="true" signature="286:475" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
               </folding>
             </state>
           </provider>
@@ -73,8 +111,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="492">
+              <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -123,6 +161,7 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/combo.php" />
         <option value="$PROJECT_DIR$/conn.php" />
+        <option value="$PROJECT_DIR$/cadastro_gravar.php" />
         <option value="$PROJECT_DIR$/cadastro.php" />
       </list>
     </option>
@@ -138,8 +177,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="26" />
-    <option name="y" value="-16" />
+    <option name="x" value="-36" />
+    <option name="y" value="-11" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
@@ -298,7 +337,7 @@
       <workItem from="1519753844975" duration="224000" />
       <workItem from="1519754102690" duration="141000" />
       <workItem from="1519834095467" duration="10427000" />
-      <workItem from="1519921385808" duration="1858000" />
+      <workItem from="1519921385808" duration="6164000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1519922301932</created>
@@ -314,11 +353,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519924233472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Identação">
+      <created>1519924339541</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519924339541</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49987000" />
+    <option name="totallyTimeSpent" value="54293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -372,8 +418,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/enviarEmail.php" />
-    <entry file="file://$PROJECT_DIR$/confirmacao.php" />
     <entry file="file://$PROJECT_DIR$/vendor/PHPMailer/class.smtp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -401,6 +445,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -411,6 +456,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -422,6 +468,7 @@
         <state relative-caret-position="0">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -433,6 +480,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -444,6 +492,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -455,6 +504,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -466,6 +516,7 @@
         <state relative-caret-position="0">
           <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -588,19 +639,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/conn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cadastro_gravar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <marker date="1519926548744" expanded="true" signature="286:377" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:378" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:397" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:415" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:430" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:446" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:464" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:475" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="572">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -614,24 +683,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conn.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="492">
+          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <marker date="1519928043000" expanded="true" signature="369:445" ph="SELECT * FRO... skills" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cadastro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        <state relative-caret-position="176">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
-            <marker date="1519924221539" expanded="true" signature="204:241" ph="SELECT idtur... TURMAS" />
-            <marker date="1519924221539" expanded="true" signature="817:886" ph="SELECT iddis... DISCIPLINAS" />
-            <marker date="1519924221539" expanded="true" signature="1539:1574" ph="SELECT iddis... DISCIPLINAS" />
-            <marker date="1519924221539" expanded="true" signature="1539:1578" ph="SELECT * FRO... PROFESSORES" />
-            <marker date="1519924221539" expanded="true" signature="2155:2193" ph="SELECT * FRO... HORARIOS" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#form#0;n#!!top" expanded="true" />
+            <marker date="1519929310242" expanded="true" signature="395:432" ph="SELECT idtur... TURMAS" />
+            <marker date="1519929310242" expanded="true" signature="1008:1077" ph="SELECT iddis... DISCIPLINAS" />
+            <marker date="1519929310242" expanded="true" signature="1730:1765" ph="SELECT iddis... DISCIPLINAS" />
+            <marker date="1519929310242" expanded="true" signature="1730:1769" ph="SELECT * FRO... PROFESSORES" />
+            <marker date="1519929310242" expanded="true" signature="2346:2384" ph="SELECT * FRO... HORARIOS" />
           </folding>
         </state>
       </provider>
