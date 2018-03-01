@@ -3,21 +3,13 @@
     include 'header.php';
 ?>
 
-<script src="bower_components/jquery/dist/jquery.min.js"> </script>
-<script>
- $('#courses').autoComplete({
-     serviceurl:
- })
-
-</script>
-
 <form method="post" action="cadastro_gravar.php">
     <div id="panel" class="container" style="width: 50%" >
          <label>CURSO:</label>
             <?php
             $result2 = $conn->query("SELECT idturma, descricao FROM TURMAS;");
 
-            echo "<select id='courses' name='courses' class=\"form-control\" > ";
+            echo "<select id='courses' name='courses' class=\"form-control\"> ";
             while ($row = $result2->fetch_assoc())
             {
                 unset($id, $name);
@@ -97,6 +89,7 @@
     <div style="text-align: center; margin-top: 50px;">
        <input type="submit"  class="btn btn-success btn-large" value="SEND TO BACK!" id="cadastrar" name="cadastrar">
     </div>
+
 </form>
 
 

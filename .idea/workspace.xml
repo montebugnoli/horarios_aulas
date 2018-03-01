@@ -2,9 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81fe9b87-df75-4327-a5f6-d455d1c76011" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cadastro_gravar.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/cadastro.php" afterPath="$PROJECT_DIR$/cadastro.php" />
+      <change beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change beforePath="$PROJECT_DIR$/imagens/logo_new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/.scrutinizer.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/PHPMailerAutoload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/VERSION" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/changelog.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/class.phpmailer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/class.pop3.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/class.smtp.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/docs/Callback_function_notes.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/docs/DomainKeys_notes.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/docs/Note_for_SMTP_debugging.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/docs/extending.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/docs/faq.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/docs/generatedocs.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/docs/pop3_article.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/code_generator.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/contents.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/contentsutf8.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/exceptions.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/gmail.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/images/phpmailer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/images/phpmailer_mini.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/mail.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/mailing_list.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/pop_before_smtp.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/scripts/XRegExp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/scripts/shAutoloader.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/scripts/shBrushPhp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/scripts/shCore.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/scripts/shLegacy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/send_file_upload.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/sendmail.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/smtp.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/smtp_check.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/smtp_no_auth.phps" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shCore.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shCoreDefault.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shCoreDjango.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shCoreEclipse.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shCoreEmacs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shCoreFadeToGrey.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shCoreMDUltra.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shCoreMidnight.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shCoreRDark.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeAppleScript.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeDefault.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeDjango.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeEclipse.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeEmacs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeFadeToGrey.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeMDUltra.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeMidnight.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeRDark.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/shThemeVisualStudio.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/examples/styles/wrapping.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/extras/EasyPeasyICS.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/extras/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/extras/htmlfilter.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/extras/ntlm_sasl_client.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-am.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-ar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-az.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-be.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-bg.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-br.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-ca.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-ch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-cz.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-de.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-dk.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-el.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-eo.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-es.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-et.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-fa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-fi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-fo.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-fr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-gl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-he.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-hr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-hu.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-id.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-it.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-ja.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-ka.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-lt.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-lv.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-ms.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-nl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-no.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-pl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-pt.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-ro.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-ru.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-se.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-sk.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-sl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-sr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-tr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-uk.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-vi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-zh.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/language/phpmailer.lang-zh_cn.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/test/bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/test/fakepopserver.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/test/fakesendmail.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/test/phpmailerLangTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/test/phpmailerTest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/test/runfakepopserver.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/test/test_callback.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/test/testbootstrap-dist.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/PHPMailer/travis.phpunit.xml.dist" afterPath="" />
     </list>
     <ignored path="Form30Horas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,9 +159,8 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="572">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
               </folding>
             </state>
@@ -52,19 +170,25 @@
       <file leaf-file-name="cadastro.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cadastro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="1716">
+              <caret line="78" column="19" lean-forward="true" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#form#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-                <marker date="1519929310242" expanded="true" signature="395:432" ph="SELECT idtur... TURMAS" />
-                <marker date="1519929310242" expanded="true" signature="1008:1077" ph="SELECT iddis... DISCIPLINAS" />
-                <marker date="1519929310242" expanded="true" signature="1730:1765" ph="SELECT iddis... DISCIPLINAS" />
-                <marker date="1519929310242" expanded="true" signature="1730:1769" ph="SELECT * FRO... PROFESSORES" />
-                <marker date="1519929310242" expanded="true" signature="2346:2384" ph="SELECT * FRO... HORARIOS" />
+                <marker date="1519935395942" expanded="true" signature="255:292" ph="SELECT idtur... TURMAS" />
+                <marker date="1519935395942" expanded="true" signature="867:936" ph="SELECT iddis... DISCIPLINAS" />
+                <marker date="1519935395942" expanded="true" signature="1589:1624" ph="SELECT iddis... DISCIPLINAS" />
+                <marker date="1519935395942" expanded="true" signature="1589:1628" ph="SELECT * FRO... PROFESSORES" />
+                <marker date="1519935395942" expanded="true" signature="2205:2243" ph="SELECT * FRO... HORARIOS" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,7 +197,7 @@
         <entry file="file://$PROJECT_DIR$/cadastro_gravar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <marker date="1519926548744" expanded="true" signature="286:377" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
                 <marker date="1519926548744" expanded="true" signature="286:378" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
@@ -103,16 +227,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -158,10 +272,10 @@
         <option value="$PROJECT_DIR$/../ajax-e-php/cadastro.php" />
         <option value="$PROJECT_DIR$/SelectedData.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/combo.php" />
         <option value="$PROJECT_DIR$/conn.php" />
         <option value="$PROJECT_DIR$/cadastro_gravar.php" />
+        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/cadastro.php" />
       </list>
     </option>
@@ -177,8 +291,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-36" />
-    <option name="y" value="-11" />
+    <option name="x" value="276" />
+    <option name="y" value="42" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
   </component>
@@ -337,7 +451,8 @@
       <workItem from="1519753844975" duration="224000" />
       <workItem from="1519754102690" duration="141000" />
       <workItem from="1519834095467" duration="10427000" />
-      <workItem from="1519921385808" duration="6164000" />
+      <workItem from="1519921385808" duration="8186000" />
+      <workItem from="1519934295272" duration="1252000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1519922301932</created>
@@ -360,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519924339541</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Save!">
+      <created>1519929339705</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519929339705</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54293000" />
+    <option name="totallyTimeSpent" value="57567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -374,12 +496,12 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -409,7 +531,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comit" />
     <MESSAGE value="Identação" />
-    <option name="LAST_COMMIT_MESSAGE" value="Identação" />
+    <MESSAGE value="Save!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Save!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,13 +541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/PHPMailer/class.smtp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="305" column="54" lean-forward="false" selection-start-line="305" selection-start-column="54" selection-end-line="305" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/PHPMailer/class.phpmailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -445,7 +561,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -456,7 +571,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -468,7 +582,6 @@
         <state relative-caret-position="0">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -480,7 +593,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -492,7 +604,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -504,7 +615,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -516,7 +626,6 @@
         <state relative-caret-position="0">
           <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
           </folding>
         </state>
@@ -636,6 +745,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -643,50 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro_gravar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <marker date="1519926548744" expanded="true" signature="286:377" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
-            <marker date="1519926548744" expanded="true" signature="286:378" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
-            <marker date="1519926548744" expanded="true" signature="286:397" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
-            <marker date="1519926548744" expanded="true" signature="286:415" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
-            <marker date="1519926548744" expanded="true" signature="286:430" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
-            <marker date="1519926548744" expanded="true" signature="286:446" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
-            <marker date="1519926548744" expanded="true" signature="286:464" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
-            <marker date="1519926548744" expanded="true" signature="286:475" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/combo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -701,20 +767,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <marker date="1519846295845" expanded="true" signature="314:351" ph="SELECT idtur... TURMAS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cadastro_gravar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <marker date="1519926548744" expanded="true" signature="286:377" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:378" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:397" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:415" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:430" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:446" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:464" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+            <marker date="1519926548744" expanded="true" signature="286:475" ph="INSERT INTO HORARIOS_DISCIPLINAS... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/chosen_v1.8.3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cadastro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="1716">
+          <caret line="78" column="19" lean-forward="true" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#form#0;n#!!top" expanded="true" />
-            <marker date="1519929310242" expanded="true" signature="395:432" ph="SELECT idtur... TURMAS" />
-            <marker date="1519929310242" expanded="true" signature="1008:1077" ph="SELECT iddis... DISCIPLINAS" />
-            <marker date="1519929310242" expanded="true" signature="1730:1765" ph="SELECT iddis... DISCIPLINAS" />
-            <marker date="1519929310242" expanded="true" signature="1730:1769" ph="SELECT * FRO... PROFESSORES" />
-            <marker date="1519929310242" expanded="true" signature="2346:2384" ph="SELECT * FRO... HORARIOS" />
+            <marker date="1519935395942" expanded="true" signature="255:292" ph="SELECT idtur... TURMAS" />
+            <marker date="1519935395942" expanded="true" signature="867:936" ph="SELECT iddis... DISCIPLINAS" />
+            <marker date="1519935395942" expanded="true" signature="1589:1624" ph="SELECT iddis... DISCIPLINAS" />
+            <marker date="1519935395942" expanded="true" signature="1589:1628" ph="SELECT * FRO... PROFESSORES" />
+            <marker date="1519935395942" expanded="true" signature="2205:2243" ph="SELECT * FRO... HORARIOS" />
           </folding>
         </state>
       </provider>
