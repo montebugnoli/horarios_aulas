@@ -7,7 +7,7 @@ include 'header.php';
     <div id="panel" class="container" style="width: 50%">
         <label>CURSO:</label>
 		<?php
-		$result2 = $conn->query( "SELECT idturma, descricao FROM TURMAS;" );
+		$result2 = $conn->query( "SELECT idturma, descricao FROM TURMAS ORDER BY descricao;" );
 
 		echo "<select id='courses' name='courses' class=\"form-control\"> ";
 		while ( $row = $result2->fetch_assoc() ) {

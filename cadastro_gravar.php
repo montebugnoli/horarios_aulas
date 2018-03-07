@@ -49,6 +49,6 @@ foreach ($_POST['noite'] as $m) {
 
 ?>
 <script>
-	alert('Registro gravado com sucesso!');
+	//alert('Registro gravado com sucesso!');
 	window.location.href = 'cadastro.php';
 </script>

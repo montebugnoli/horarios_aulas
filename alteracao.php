@@ -14,7 +14,7 @@
 
             $result = $conn->query("select idturma, descricao from turmas where ativo=1 order by descricao; ");
 
-            echo "<select id='courses' name='courses' class=\"form-control\" > ";
+            echo "<select id='coursesReloaded' name='coursesReloaded' class=\"form-control\" > ";
             echo "<option value='0'> SELECIONE O CURSO ... </option>";
             while ($row = $result->fetch_assoc())
             {

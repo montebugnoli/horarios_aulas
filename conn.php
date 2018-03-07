@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Created by PhpStorm.
  * User: Administrador
@@ -9,10 +9,11 @@ $conn = new mysqli('localhost', 'root', '', 'ifsp_horarios')
 or die ('Cannot connect to db');
 mysqli_set_charset($conn,"utf8");
 
+
 const DIAS = array(
-    "SEGUNDA",
-    "TERÇA",
-    "QUARTA",
-    "QUINTA",
-    "SEXTA",
+    "SEGUNDA-FEIRA",
+    "TERÇA-FEIRA",
+    "QUARTA-FEIRA",
+    "QUINTA-FEIRA",
+    "SEXTA-FEIRA",
     "SÁBADO");

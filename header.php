@@ -7,7 +7,7 @@
     <style>
         .header {
             padding-top: 30px;
-            padding-bottom: 40px;
+            padding-bottom: 0px;
             font-size: 24px;
             text-align: left;
 
@@ -58,6 +58,22 @@
             });
         });
     </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#coursesReloaded').on("change", function() {
+                $.ajax({
+                    type: "POST",
+                    url: 'alterCombo.php',
+                    data: { 'idTurma': $(this).val() },
+                    success: function(data) {
+                        $("#result").html(data);
+                    }
+                })
+            });
+        });
+    </script>
+
   </head>
 <body>
     <div class="header">

@@ -28,8 +28,9 @@ function processDrpdown($idTurma)
 
             while ($rows = mysqli_fetch_array($result3, MYSQLI_ASSOC)) {
                 echo "<tr>";
-                foreach ($rows as $data) {
-                    echo "<td align='center'> ". $data . "</td>";
+                foreach ($rows as $data)
+                {
+                    echo "<td align='center'> <input type='text' name='data' value=" . $data . ">" . "</td>";
 
                 }
             }
