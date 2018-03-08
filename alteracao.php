@@ -1,40 +1,58 @@
 <?php
     include 'conn.php';
     include 'header.php';
+
+    $idhorario_disciplina =  $_GET['id'];
+//    $professor = $_GET['id2'];
+//    $materia = $_GET['id3'];
 ?>
+<form  id="form1" name="form1" class="form-horizontal" method="post" action="alteracao_gravar.php">
+  <div id="panel" class="container" style="width: 50%" >
 
-<!--    <form  id="form1" name="form1" class="form-horizontal" method="get" action="index.php">-->
-        <div id="panel" class="container" style="width: 50%" >
+      <div id="panel2" class="container" style="width: 50%">
+          <label>DISCIPLINA:</label>
+          <?php
 
-	    <center><b><label>Aten&ccedil;&atilde;o Aluno, selecione o curso desejado abaixo para listar o hor&aacute;rio de aula.</label></b></center>	
-	    <br>
-            <label>CURSO:</label>
+          echo "<input type='hidden' name='id_master' value=" . $idhorario_disciplina . " />";
 
-		<?php
+          $result2 = $conn->query( "SELECT iddisciplina, sigla, descricao FROM DISCIPLINAS ORDER BY sigla;" );
 
-            $result = $conn->query("select idturma, descricao from turmas where ativo=1 order by descricao; ");
+          echo "<select id='disciplinas' name='disciplinas' class=\"form-control\" > ";
+          while ( $row2 = $result2->fetch_assoc() ) {
+              unset( $id2, $name2 );
+              $id2        = $row2['iddisciplina'];
+              $sigla      = $row2['sigla'];
+              $descricao2 = $row2['descricao'];
+              echo '<option value="' . $id2 . '">' . $sigla . " - " . $descricao2 . '</option>';
+          }
 
-            echo "<select id='coursesReloaded' name='coursesReloaded' class=\"form-control\" > ";
-            echo "<option value='0'> SELECIONE O CURSO ... </option>";
-            while ($row = $result->fetch_assoc())
-            {
-                unset($id, $name);
-                $id = $row['idturma'];
-                $descricao = $row['descricao'];
-                echo '<option value="' . $id . '">' . $descricao . '</option>';
-            }
-            echo "</select>";
+          echo "</select>";
 
-            ?>
+          ?>
+      </div>
 
+      <div id="panel3" class="container" style="width: 50%">
+          <label>PROFESSOR:</label>
+          <?php
+          $result2 = $conn->query( "SELECT * FROM PROFESSORES ORDER BY nome;" );
 
-            <div id="result" style="margin-top: 30px;"></div>
+          echo "<select id='professores' name='professores' class=\"form-control\" > ";
+          while ( $row2 = $result2->fetch_assoc() ) {
+              unset( $id2, $name2 );
+              $id2   = $row2['idprofessor'];
+              $sigla = $row2['nome'];
+              echo '<option value="' . $id2 . '">' . $sigla . '</option>';
+          }
+          echo "</select>";
+          ?>
+      </div>
 
-        </div>
+      <div style="text-align: center; margin-top: 50px;">
+          <input type="submit" class="btn btn-success btn-large" value="UPDATE!" id="alter" name="alter">
+      </div>
 
-
-
-<!--    </form>-->
+  </div>
+</form>
 
 <?php include 'footer.php' ; ?>
 

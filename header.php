@@ -64,7 +64,7 @@
             $('#coursesReloaded').on("change", function() {
                 $.ajax({
                     type: "POST",
-                    url: 'alterCombo.php',
+                    url: 'manutencao_combo.php',
                     data: { 'idTurma': $(this).val() },
                     success: function(data) {
                         $("#result").html(data);

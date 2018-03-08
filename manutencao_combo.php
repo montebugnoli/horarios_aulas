@@ -10,7 +10,7 @@ function processDrpdown($idTurma)
 
     for ($k = 0; $k<=5; $k++)
     {
-        $daylyQuery = "select h.periodo periodo, h.descricao aula, " .
+        $daylyQuery = "select hd.idhorario_disciplina, h.periodo periodo, h.descricao aula, " .
             "h.inicio inicio, h.fim fim, d.sigla materia, p.nome professor " .
             "from ifsp_horarios.horarios_disciplinas hd " .
             "inner join ifsp_horarios.disciplinas d on (hd.iddisciplina=d.iddisciplina) " .
@@ -24,15 +24,16 @@ function processDrpdown($idTurma)
 	
         if (mysqli_num_rows($result3) > 0)
         {
-            echo "<th colspan='6'><center>". DIAS[$k] . "</center></th>";
+            echo "<th colspan='8'><center>". DIAS[$k] . "</center></th>";
 
             while ($rows = mysqli_fetch_array($result3, MYSQLI_ASSOC)) {
                 echo "<tr>";
                 foreach ($rows as $data)
                 {
-                    echo "<td align='center'> <input type='text' name='data' value=" . $data . ">" . "</td>";
-
+                    echo "<td align='center'>" . $data . "</td>";
                 }
+                echo "<td align='center'> <a href=\"alteracao.php?id=".$rows['idhorario_disciplina'] . "&id2=". $rows['professor'] . "&id3=" . $rows['materia']   . "\"    class=\"btn btn-warning\">ALTER</a> </td>";
+
             }
             echo "</tr>";
         }
