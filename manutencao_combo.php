@@ -24,7 +24,7 @@ function processDrpdown($idTurma)
 	
         if (mysqli_num_rows($result3) > 0)
         {
-            echo "<th colspan='8'><center>". DIAS[$k] . "</center></th>";
+            echo "<th colspan='9'><center>". DIAS[$k] . "</center></th>";
 
             while ($rows = mysqli_fetch_array($result3, MYSQLI_ASSOC)) {
                 echo "<tr>";
@@ -33,7 +33,7 @@ function processDrpdown($idTurma)
                     echo "<td align='center'>" . $data . "</td>";
                 }
                 echo "<td align='center'> <a href=\"alteracao.php?id=".$rows['idhorario_disciplina'] . "&id2=". $rows['professor'] . "&id3=" . $rows['materia']   . "\"    class=\"btn btn-warning\">ALTER</a> </td>";
-
+                echo "<td align='center'> <a href=\"exclusao.php?id=".$rows['idhorario_disciplina'] . "&id2=". $rows['professor'] . "&id3=" . $rows['materia']   . "\"    class=\"btn btn-danger\" disabled>DELETE</a> </td>";
             }
             echo "</tr>";
         }

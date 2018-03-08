@@ -48,7 +48,7 @@
       </div>
 
       <div style="text-align: center; margin-top: 50px;">
-          <input type="submit" class="btn btn-success btn-large" value="UPDATE!" id="alter" name="alter">
+          <input type="submit" class="btn btn-success btn-large" value="UPDATE" id="alter" name="alter">
       </div>
 
   </div>

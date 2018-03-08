@@ -4,6 +4,11 @@ include 'header.php';
 ?>
 
 <form method="post" action="cadastro_gravar.php">
+
+<!--    <div style="text-align: left; margin-top: 20px;">-->
+<!--        <input type="button" onClick="window.open('manutencao.php')" class="btn btn-success btn-large" value="MAINTENANCE" id="manutencao" name="manutencao">-->
+<!--    </div>-->
+
     <div id="panel" class="container" style="width: 50%">
         <label>CURSO:</label>
 		<?php
