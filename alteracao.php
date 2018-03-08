@@ -15,7 +15,7 @@
 
           echo "<input type='hidden' name='id_master' value=" . $idhorario_disciplina . " />";
 
-          $result2 = $conn->query( "SELECT iddisciplina, sigla, descricao FROM DISCIPLINAS ORDER BY sigla;" );
+          $result2 = $conn->query( "select iddisciplina, sigla, descricao from disciplinas order by sigla;" );
 
           echo "<select id='disciplinas' name='disciplinas' class=\"form-control\" > ";
           while ( $row2 = $result2->fetch_assoc() ) {
@@ -34,7 +34,7 @@
       <div id="panel3" class="container" style="width: 50%">
           <label>PROFESSOR:</label>
           <?php
-          $result2 = $conn->query( "SELECT * FROM PROFESSORES ORDER BY nome;" );
+          $result2 = $conn->query( "select * from professores order by nome;" );
 
           echo "<select id='professores' name='professores' class=\"form-control\" > ";
           while ( $row2 = $result2->fetch_assoc() ) {
