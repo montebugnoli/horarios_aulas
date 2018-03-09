@@ -6,9 +6,12 @@
 <!--    <form  id="form1" name="form1" class="form-horizontal" method="get" action="index.php">-->
         <div id="panel" class="container" style="width: 50%" >
 
-	    <center><b><label>Aten&ccedil;&atilde;o Aluno, selecione o curso desejado abaixo para listar o hor&aacute;rio de aula.</label></b></center>	
-	    <br>
-            <label>CURSO:</label>
+        <p align="center">
+            <b><label>Aten&ccedil;&atilde;o Aluno, selecione o curso desejado abaixo para listar o hor&aacute;rio de aula.</label></b>
+        </p>
+        <br>
+
+        <label>CURSO:</label>
 
 		<?php
 
@@ -27,14 +30,14 @@
 
             ?>
 
-
             <div id="result" style="margin-top: 30px;"></div>
 
+            <p align="center">
+                <a class="btn btn-default btn-lg btn" type="button" onclick="javascript:this.style.display='none'; window.print();">
+                    <i class="glyphicon glyphicon-print"></i> Imprimir
+                </a>
+            </p>
         </div>
-
-
-
-<!--    </form>-->
 
 <?php include 'footer.php' ; ?>
 

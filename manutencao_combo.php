@@ -33,7 +33,7 @@ function processDrpdown($idTurma)
                     echo "<td align='center'>" . $data . "</td>";
                 }
                 echo "<td align='center'> <a href=\"alteracao.php?id=".$rows['idhorario_disciplina'] . "&id2=". $rows['professor'] . "&id3=" . $rows['materia']   . "\"    class=\"btn btn-warning\">ALTER</a> </td>";
-                echo "<td align='center'> <a href=\"exclusao.php?id=".$rows['idhorario_disciplina'] . "&id2=". $rows['professor'] . "&id3=" . $rows['materia']   . "\"    class=\"btn btn-danger\" disabled>DELETE</a> </td>";
+                echo "<td align='center'> <a \href='javascript:func()' onclick='confirmacao(" .$rows['idhorario_disciplina'] . ")'" . "class=\"btn btn-danger\">DELETE</a> </td>";
             }
             echo "</tr>";
         }

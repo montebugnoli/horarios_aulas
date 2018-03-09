@@ -74,6 +74,16 @@
         });
     </script>
 
+    <script language="Javascript">
+        function confirmacao(id) {
+            var resposta = confirm("Deseja remover esse horário?");
+
+            if (resposta == true) {
+                window.location.href = "exclusao_gravar.php?id="+id;
+            }
+        }
+    </script>
+
   </head>
 <body>
     <div class="header">
