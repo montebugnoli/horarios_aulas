@@ -28,22 +28,22 @@ else
 
 foreach ($_POST['manha'] as $m) {
 	$val = explode("_", $m);
-	$sql = "INSERT INTO HORARIOS_DISCIPLINAS (iddisciplina, idturma, idhorario, idprofessor, diasemana) ".
-	       "VALUES (". $disciplina. "," . $curso . "," . $val[0] ."," . $professor ."," . $val[1].")";
+	$sql = "insert into horarios_disciplinas (iddisciplina, idturma, idhorario, idprofessor, diasemana) ".
+	       "values (". $disciplina. "," . $curso . "," . $val[0] ."," . $professor ."," . $val[1].")";
 	mysqli_query($conn, $sql);
 }
 
 foreach ($_POST['tarde'] as $m) {
 	$val = explode("_", $m);
-	$sql = "INSERT INTO HORARIOS_DISCIPLINAS (iddisciplina, idturma, idhorario, idprofessor, diasemana) ".
-	       "VALUES (". $disciplina. "," . $curso . "," . $val[0] ."," . $professor ."," . $val[1].")";
+	$sql = "insert into horarios_disciplinas (iddisciplina, idturma, idhorario, idprofessor, diasemana) ".
+	       "values (". $disciplina. "," . $curso . "," . $val[0] ."," . $professor ."," . $val[1].")";
 	mysqli_query($conn, $sql);
 }
 
 foreach ($_POST['noite'] as $m) {
 	$val = explode("_", $m);
-	$sql = "INSERT INTO HORARIOS_DISCIPLINAS (iddisciplina, idturma, idhorario, idprofessor, diasemana) ".
-	       "VALUES (". $disciplina. "," . $curso . "," . $val[0] ."," . $professor ."," . $val[1].")";
+	$sql = "insert into horarios_disciplinas (iddisciplina, idturma, idhorario, idprofessor, diasemana) ".
+	       "values (". $disciplina. "," . $curso . "," . $val[0] ."," . $professor ."," . $val[1].")";
 	mysqli_query($conn, $sql);
 }
 
