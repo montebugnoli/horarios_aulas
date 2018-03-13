@@ -5,14 +5,10 @@ include 'header.php';
 
 <form method="post" action="cadastro_gravar.php">
 
-<!--    <div style="text-align: left; margin-top: 20px;">-->
-<!--        <input type="button" onClick="window.open('manutencao.php')" class="btn btn-success btn-large" value="MAINTENANCE" id="manutencao" name="manutencao">-->
-<!--    </div>-->
-
     <div id="panel" class="container" style="width: 50%">
         <label>CURSO:</label>
 		<?php
-		$result2 = $conn->query( "SELECT idturma, descricao FROM TURMAS ORDER BY descricao;" );
+		$result2 = $conn->query( "select idturma, descricao from turmas order by descricao;" );
 
 		echo "<select id='courses' name='courses' class=\"form-control\"> ";
 		while ( $row = $result2->fetch_assoc() ) {
@@ -28,7 +24,7 @@ include 'header.php';
     <div id="panel2" class="container" style="width: 50%">
         <label>DISCIPLINA:</label>
 		<?php
-		$result2 = $conn->query( "SELECT iddisciplina, sigla, descricao FROM DISCIPLINAS ORDER BY sigla;" );
+		$result2 = $conn->query( "select iddisciplina, sigla, descricao from disciplinas order by sigla;" );
 
 		echo "<select id='disciplinas' name='disciplinas' class=\"form-control\" > ";
 		while ( $row2 = $result2->fetch_assoc() ) {
@@ -45,7 +41,7 @@ include 'header.php';
     <div id="panel3" class="container" style="width: 50%">
         <label>PROFESSOR:</label>
 		<?php
-		$result2 = $conn->query( "SELECT * FROM PROFESSORES ORDER BY nome;" );
+		$result2 = $conn->query( "select * from professores order by nome;" );
 
 		echo "<select id='professores' name='professores' class=\"form-control\" > ";
 		while ( $row2 = $result2->fetch_assoc() ) {
@@ -61,7 +57,7 @@ include 'header.php';
     <div id="panel4" class="container" style="width: 50%">
         <label>HORÁRIO:</label>
 		<?php
-		$result2 = $conn->query( "SELECT * FROM HORARIOS ORDER BY INICIO;" );
+		$result2 = $conn->query( "select * from horarios order by inicio;" );
 
 		echo "<select id='horarios' name='horarios' class=\"form-control\" > ";
 		while ( $row2 = $result2->fetch_assoc() ) {
@@ -105,7 +101,7 @@ include 'header.php';
             <tbody>
 				<?php
 
-				$rs = $conn->query( "SELECT * FROM horarios WHERE periodo='MANHA'" );
+				$rs = $conn->query( "select * from horarios where periodo='MANHA'" );
 				while($h = $rs->fetch_object()) {
 				    echo '<tr>';
 				    echo '<th>' . $h->descricao .' (' . $h->inicio . ' - ' . $h->fim .')</th>';
@@ -138,7 +134,7 @@ include 'header.php';
             <tbody>
 			<?php
 
-			$rs = $conn->query( "SELECT * FROM horarios WHERE periodo='TARDE'" );
+			$rs = $conn->query( "select * from horarios where periodo='TARDE'" );
 			while($h = $rs->fetch_object()) {
 				echo '<tr>';
 				echo '<th>' . $h->descricao .' (' . $h->inicio . ' - ' . $h->fim .')</th>';
@@ -171,7 +167,7 @@ include 'header.php';
             <tbody>
 			<?php
 
-			$rs = $conn->query( "SELECT * FROM horarios WHERE periodo='NOITE'" );
+			$rs = $conn->query( "select * from horarios where periodo='NOITE'" );
 			while($h = $rs->fetch_object()) {
 				echo '<tr>';
 				echo '<th>' . $h->descricao .' (' . $h->inicio . ' - ' . $h->fim .')</th>';
