@@ -8,18 +8,20 @@
         .header {
             padding-top: 30px;
             padding-bottom: 0px;
-            font-size: 24px;
+            font-size: 26px;
             text-align: left;
-
-            color: #b3e3ae;
-            text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-            background-color: #66a05d;
+            background-color: #aae5aa;
             margin-bottom: 40px;
+            /*color: black;*/
+            /*text-shadow: 0 1px 0 rgba(0, 0, 0, .1);*/
+            color: black;
+            text-shadow: 1px 1px 1px black, 0 0 1px beige, 0 0 1px darkblue;
         }
 
         .header h1 {
-            color: #ffffff;
-            font-size: 30px;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px beige, 0 0 5px darkblue;
+
         }
 
         .logo {
@@ -31,11 +33,11 @@
         .footer {
             padding-top: 10px;
             padding-bottom: 20px;
-            font-size: 12px;
+            font-size: 15px;
             text-align: center;
-            color: #ffffff;
+            color: black;
             text-shadow: 0 1px 0 rgba(0,0,0,.1);
-            background-color: #66a05d;
+            background-color: #aae5aa;
             margin-top: 40px;
         }
         .row {
@@ -94,7 +96,8 @@
                 </div>
                 <div class="col-lg-10 col-md-10 col-sm-10">
                     <h1>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - Câmpus Avaré</h1>
-                    <h2>Horários de Aulas </h2>
+<!--                    <p style="color:black;"  >Horários de Aulas </p>-->
+                    Horários de Aulas
                 </div>
             </div>
         </div>
