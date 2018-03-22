@@ -5,7 +5,7 @@
  * Date: 27/02/2018
  * Time: 10:16
  */
-$conn = new mysqli('localhost', 'root', '', 'ifsp_horarios')
+$conn = new mysqli('172.16.0.7', 'developer', '9d93a8', 'ifsp_horarios')
 or die ('Cannot connect to db');
 mysqli_set_charset($conn,"utf8");
 
